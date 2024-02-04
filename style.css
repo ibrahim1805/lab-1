@@ -1,0 +1,124 @@
+*{
+    margin: px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+}
+
+.nba{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+nav{
+ width: 90%;   
+ position: absolute;
+ top: 0;
+ left: 0;
+ padding: 15px 4%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+nav .logo{
+    width: 80px;
+
+}
+nav ul a {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.content{
+    text-align: center;
+    text-align: bottom;
+}
+
+.content h1{
+    font-size: 130px;
+    color: black ;
+    font-weight: 600;
+}
+
+.content a{
+   text-decoration: none; 
+   display: inline-block;
+   color: #fff;
+   font-size: 24px;
+   border: 2px solid black;
+   padding: 14px 70px;
+   border-radius: 50px;
+   margin-top: 20px;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.narbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+nav ul a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.video{
+  background-image: url("yt1s.com - EVERYONES GAME  NBA 20232024_1080p.mp4"); 
+}
+
+
+
+
+
+
